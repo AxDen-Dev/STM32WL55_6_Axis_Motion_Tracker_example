@@ -1,0 +1,9 @@
+app_subghz_phy.c:80:6:MX_SubGHz_Phy_Init	8	static
+app_subghz_phy.c:96:13:packetSendCallback	16	static
+app_subghz_phy.c:104:13:packetRecviceCallback	16	static
+app_subghz_phy.c:118:6:MX_SubGhz_Phy_Radio_Sleep	8	static
+app_subghz_phy.c:124:6:MX_SubGhz_Phy_SendPacket	16	static
+app_subghz_phy.c:131:9:MX_SubGhz_Phy_Get_SendPacket_State	4	static
+app_subghz_phy.c:137:6:MX_SubGhz_Phy_RecvicePacket	8	static
+app_subghz_phy.c:144:9:MX_SubGhz_Phy_Get_RecvicePacket_State	4	static
+app_subghz_phy.c:150:6:MX_SubGhz_Phy_Get_RecvicePacket	24	static
