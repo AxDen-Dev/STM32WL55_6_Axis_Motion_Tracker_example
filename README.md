@@ -40,11 +40,39 @@ Si7051 센서를 이용하여 온도 값을 수집합니다.
 UART X 1, I2C X 1 를 연결할 수 있는 Connector 가 존재하여 확장이 가능합니다.
 <br>
 
-네이버 스마트 스토어에서 구매 가능합니다.
-<br>
+-----------------------
 
 [네이버 스마트 스토어](https://smartstore.naver.com/axden)
 <br>
+
+-----------------------
+
+### Note
+<br>
+
+
+
+<table>
+  <tr align="center">
+    <td>Top</td>
+    <td>Bottom</td>
+  </tr>
+  <tr align="center">
+    <td><img src="./asset/axden_stm32wl55_lora_top.jpeg"></td>
+    <td><img src="./asset/axden_stm32wl55_lora_bottom.jpeg"></td>
+  </tr>
+</table>
+<br>
+
+Works with STM32CubeIDE Version: 1.8.0, freeRTOS CMSIS_V2, Single-core
+<br>
+
+STM32WL55 module only support RFO_H
+<br>
+
+RF Switch IC MPN : BGS12SN6E6327XTSA1
+<br>
+
 
 -----------------------
 
@@ -125,20 +153,6 @@ SubGHZ-Phy / App / subghz_phy_app.c
 <br>
 
 <img src="./asset/Radio_setup.png">
-<br>
-
------------------------
-
-### Note
-<br>
-
-Works with STM32CubeIDE Version: 1.8.0, freeRTOS CMSIS_V2, Single-core
-<br>
-
-STM32WL55 module only support RFO_H
-<br>
-
-RF Switch IC MPN : BGS12SN6E6327XTSA1
 <br>
 
 -------------------------
