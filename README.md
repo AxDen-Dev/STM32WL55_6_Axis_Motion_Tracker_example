@@ -4,20 +4,42 @@
 <img src="./asset/axden_stm32wl55_lora_motion_tracker.jpeg">
 <br>
 
-STM32WL55 – LORA SoC
+STM32WL55 6-Axis LoRa Motion Tracker 은 가속도, 각속도, 온도, GPS 위치와 같은 Asset tracking 에 필요한 핵심적인 정보를 수집하고 태양광 충전을 이용하여 배터리를 충전합니다.
+<br>
+<br>
+1Km 이상의 장거리 통신이 필요한 다양한 서비스 시나리오를 빠르게 테스트 할 수 있도록 제공하는 예제입니다.
+<br>
+<br>
+The STM32WL55 6-Axis LoRa Motion Tracker collects key information required for asset tracking such as acceleration, angular velocity, temperature, and GPS location, and charges the battery using solar power.
+<br>
+<br>
+This is an example that provides quick testing of various service scenarios that require long-distance communication of 1Km or more.
 <br>
 
-LSM6DSL -Accelerometer, gyroscope sensor
+-----------------------
+
+[네이버 스마트 스토어](https://smartstore.naver.com/axden)
 <br>
 
-Si7051 -Temperature sensor
-<br>
+-----------------------
 
-Si7201 – Hall Sensor
-<br>
+### 주요 특징 및 기능
 
-868 ~ 928Mhz 의 주파수 대역을 사용합니다.
-<br>
+MCU | 설명
+:-------------------------:|:-------------------------:
+STM32WL55 | LoRa SoC
+
+센서 | 설명
+:-------------------------:|:-------------------------:
+L76 | GPS sensor
+MAX2659 | GPS LNA
+LSM6DSl | 6 Axis Accelerometer, Gyroscope
+Si7051 | Temperature sensor
+Si7201 | Hall Sensor
+SPV1050 | Solar battery charger (Max charge current 80mA)
+Solar | On board
+Battery | 3.7V Lithium Battery
+
 
 LORA 통신이 가능한 Motion tracker 입니다.
 <br>
@@ -40,17 +62,17 @@ Si7051 센서를 이용하여 온도 값을 수집합니다.
 UART X 1, I2C X 1 를 연결할 수 있는 Connector 가 존재하여 확장이 가능합니다.
 <br>
 
------------------------
-
-[네이버 스마트 스토어](https://smartstore.naver.com/axden)
-<br>
-
------------------------
 
 ### Note
+
+해당 프로그램으로 예제 프로그램으로 양산 및 상용화에 적합하지 않습니다.
 <br>
 
+양산 및 대량 구매 고객께서는 development@axden.io 으로 문의 주시기 바랍니다.
+<br>
 
+양산 및 대량 구매 고객분들께는 저전력, 안정화, 게이트웨이와 통신 등 사용하시는 목적에 맞는 최적화된 Firmware 를 무료로 개발해 드립니다.
+<br>
 
 <table>
   <tr align="center">
